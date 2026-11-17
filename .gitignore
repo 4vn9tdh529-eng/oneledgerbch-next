@@ -1,0 +1,29 @@
+# Next.js
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials
+.env
+.env.*
+!.env.example
+!.env.local.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
